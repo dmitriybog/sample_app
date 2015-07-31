@@ -54,4 +54,4 @@ def resource_tests(resource)
   integration_tests(resource) << controller_test(resource)
 end
 
-notification :gntp, sticky: true, host: '127.0.0.1'
+notification :gntp, sticky: false, host: '127.0.0.1'
